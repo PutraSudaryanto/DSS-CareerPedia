@@ -1,0 +1,382 @@
+/* =Custom Default
+-------------------------------------------------------------- */
+/* Dialog Form
+----------------------------*/
+.notifier .dialog-box .dialog-header {
+	background: #333;
+	padding: 12px 15px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 17px;
+}
+.notifier .dialog-box .dialog-content {
+	padding: 12px 12px;
+}
+.notifier .dialog-box .dialog-content iframe {
+	width: 100%;
+	height: 250px;
+}
+.notifier .dialog-box .dialog-content div.empty {
+	border: 1px solid #ccc;
+	background: #f9f9f9;
+	padding: 40px 30px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+}
+.notifier .dialog-box .dialog-submit {
+	background: #ccc;
+	padding: 10px 12px;
+	text-align: right;
+}
+
+/* Dialog Copyright
+----------------------------*/
+.dialog .dialog-box .content .copyright,
+.dialog .dialog-box .content .copyright *,
+.dialog#module .dialog-box .content .header,
+.dialog#module .dialog-box .content .header *,
+.dialog#module .dialog-box .content .footer,
+.dialog#module .dialog-box .content .footer *,
+.dialog#apps .content div.button * {
+	color: #f5f5f5;
+}
+.dialog#module .dialog-box .content .copyright {
+	background: #b21d32;
+	padding: 12px 25px 10px 25px;
+}
+.dialog#apps .dialog-box .content .copyright {
+	padding: 12px 10px 0 10px;
+}
+.dialog .dialog-box .content .copyright a,
+.dialog#module .dialog-box .content .header a,
+.dialog#module .dialog-box .content .footer a {
+	display: inline-block;
+}
+.dialog .dialog-box .content .copyright .right,
+.dialog#module .dialog-box .content .footer .right {
+	font-size: 10px;
+}
+.dialog .dialog-box .content .copyright .right a,
+.dialog#module .dialog-box .content .header .right a,
+.dialog#module .dialog-box .content .footer .right a {
+	margin: 0 5px 0 1px;
+}
+
+/* Dialog Custom
+----------------------------*/
+.dialog,
+.notifier {
+	background: rgba(0, 0, 0, 0.6) url('quicknews/images/pattern.png') repeat;
+	overflow-y: hidden;
+}
+.dialog#apps,
+.dialog#module {
+	overflow-y: scroll;
+}
+.dialog .dialog-box {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.dialog#apps .dialog-box .content,
+.dialog#module .dialog-box .content {
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.dialog#module .dialog-box .content  {
+	text-align: center;
+}
+.dialog#module .content * {	
+	color: #B0B0B0;
+	font-style: italic;
+}
+.dialog#module .content h1 {
+	margin: 0 0 50px 0;
+	font-size: 35px;
+	line-height: 45px;
+	color: #fff;
+	font-weight: 400;	
+}
+.dialog#module .content .desc-on h1 {
+	margin: 0 0 10px 0;	
+}
+.dialog#module .content div.intro {
+	margin: 0 0 40px 0;
+}
+.dialog#module .content div.button {
+	margin: 70px 0 0 0;
+}
+.dialog#module .content form {
+	margin: 0 auto;
+	width: 500px;
+	text-align: left;
+}
+.dialog#module .content form input,
+.dialog#module .content form textarea {
+	border: 1px solid transparent;
+	font-size: 20px;
+	line-height: 28px;
+}
+.dialog#module .content form input {
+	height: 50px;
+}
+.dialog#module .content form input.error,
+.dialog#module .content form textarea.error {
+	border: 1px solid #fff;
+}
+.dialog#module .content form input[type="text"],
+.dialog#module .content form input[type="password"],
+.dialog#module .content form textarea {
+	padding: 10px 16px;
+	background: #fff;
+	font-weight: 500;
+	color: #555;
+}
+.dialog#module .content form input[type="submit"] {
+	font-size: 18px;
+	line-height: 24px;
+}
+.dialog#module .content fieldset div.clearfix {
+	padding: 0 0 0 0;
+	margin: 0 0 14px 0;
+}
+.dialog#module .content fieldset div.clearfix:last-child,
+.dialog#module .content fieldset div.clearfix:first-child:last-child {
+	margin: 0 0 0 0;
+}
+.dialog#module .content fieldset div.clearfix .errorMessage {
+	margin: 10px 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 14px;
+	color: #FFD0D0;
+}
+
+
+.dialog#module .content form.form {
+	width: 450px;
+}
+.dialog#module .content form.form input,
+.dialog#module .content form.form textarea {
+	width: 100%;
+	font-size: 16px;
+	line-height: 22px;
+}
+.dialog#module .content form.form input {
+	height: 45px;
+}
+.dialog#module .content form.form input[type="text"],
+.dialog#module .content form.form input[type="password"],
+.dialog#module .content form.form textarea {
+	-webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    -o-transition: opacity 0.3s ease-in-out;
+    -ms-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.dialog#module .content form.form input[type="text"]:focus,
+.dialog#module .content form.form input[type="password"]:focus,
+.dialog#module .content form.form textarea:focus {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.dialog#module .content form.form div.clearfix {
+	position: relative;
+}
+.dialog#module .content form.form div.clearfix .errorMessage {
+	position: absolute;
+	left: 100%;
+	top: 6px;
+	margin: 0 0 0 15px;
+	background: url('users/images/icon_error.png') 50% 50% no-repeat;
+	overflow: hidden;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	color: transparent;
+}
+
+.dialog#module .content a.closed {
+	text-decoration: underline;
+}
+.dialog#module .dialog-box .content .header,
+.dialog#module .dialog-box .content .footer {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: fixed;
+	width: 100%;
+	font-style: normal;
+}
+.dialog#module .dialog-box .content .header *,
+.dialog#module .dialog-box .content .footer * {
+	font-style: normal;
+}
+.dialog#module .dialog-box .content .header {
+	top: 0;
+	left: 0;
+	padding: 15px 20px 0 20px;
+}
+.dialog#module .dialog-box .content .header .right a {
+	text-transform: uppercase;
+}
+.dialog#module .dialog-box .content .footer {
+	bottom: 0;
+	left: 0;
+	padding: 0 20px 15px 20px;
+}
+
+.dialog#apps .dialog-box .content .boxed {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,0.9);
+	box-shadow: 0 2px 10px rgba(0,0,0,0.9);
+	background: #fff;
+}
+.dialog#apps .content div.button {
+	padding: 30px 0 0 0;
+	text-align: center;
+}
+
+/* =Responsive
+-------------------------------------------------------------- */
+/* Resolution 1920 */
+@media only screen and (max-width:1920px) {
+	.body #main {
+		padding: 40px 50px 40px 50px;
+	}
+	.body #main #list-view .sep {
+		width: 20%;
+		padding: 0 15px 0 15px;
+		margin: 0 0 30px 0;
+	}
+}
+
+/* Resolution 1680 */
+@media only screen and (max-width:1680px) {
+	.body #main {
+		padding: 30px 40px 30px 40px;
+	}
+	.body #main #list-view .sep {
+		padding: 0 13px 0 13px;
+		margin: 0 0 26px 0;
+	}
+}
+
+/* Resolution 1280 */
+@media only screen and (max-width:1400px) {
+	.body #main {
+		padding: 30px 20px 30px 20px;
+	}
+	.body #main #list-view .sep {
+		padding: 0 10px 0 10px;
+		margin: 0 0 20px 0;
+	}
+	.body #main #list-view .box .title {
+		padding: 15px 20px 17px 20px;
+	}
+	.body #main #list-view .box .title  h3 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.body #main #list-view .box .desc {	
+		padding: 15px 20px 20px 20px;
+	}
+}
+
+/* Resolution 1280 */
+@media only screen and (max-width:1280px) {
+	.body #main {}
+	.body #main #list-view .sep {
+		width: 25%;
+		padding: 0 12px 0 12px;
+		margin: 0 0 24px 0;
+	}
+}
+
+/* Resolution 1024 */
+@media only screen and (max-width:1024px) {
+	.body #main {
+		padding: 20px 20px 20px 20px;
+	}
+	.body #main #list-view .sep {
+		width: 33.333333%;
+		padding: 0 11px 0 11px;
+		margin: 0 0 22px 0;
+	}
+}
+
+/* Resolution 900 */
+@media only screen and (max-width:900px) {
+	.body #main {
+		padding: 20px 15px 20px 15px;
+	}
+	.body #main #list-view .sep {
+		padding: 0 10px 0 10px;
+		margin: 0 0 20px 0;
+	}
+}
+
+/* Resolution 800 */
+@media only screen and (max-width:800px) {
+	.body #main {
+		padding: 15px 12px 15px 12px;
+	}
+	.body #main #list-view .sep {
+		padding: 0 8px 0 8px;
+		margin: 0 0 16px 0;
+	}
+	.body #main #list-view .box .title  h3 {
+		font-size: 18px;
+		line-height: 22px;
+	}
+}
+
+/* Resolution 600 */
+@media only screen and (max-width:600px) {
+	.body #main {
+		padding: 15px 10px 15px 10px;
+	}
+	.body #main #list-view .sep {
+		width: 50%;
+	}
+}
+
+/* Resolution 480 */
+@media only screen and (max-width:480px) {
+	.body #main {
+		padding: 12px 6px 12px 6px;
+	}
+	.body #main #list-view .sep {
+		padding: 0 6px 0 6px;
+		margin: 0 0 12px 0;
+	}
+	.body #main #list-view .box .title  h3 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
+
+/* Resolution 320 */
+@media only screen and (max-width:320px) {
+	.body #main {
+		padding: 10px 10px 10px 10px;
+	}
+	.body #main #list-view .sep {
+		width: 100%;
+		padding: 0 0 0 0;
+		margin: 0 0 10px 0;
+	}
+}
