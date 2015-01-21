@@ -1,0 +1,67 @@
+/* =Contact
+-------------------------------------------------------------- */
+#contact .content {
+	width: 70%;
+	padding: 0 0 0 0;
+}
+
+/* Maps */
+#contact .content .maps {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-top: 3px solid #333;
+	height: 290px;
+	margin: 0 0 40px 0;
+}
+
+/* Fieldset */
+#contact .form {
+	padding: 25px 0 0 0;
+}
+#contact fieldset div.clearfix {
+	border-bottom: none;
+	padding: 0 0 15px 0;
+}
+#contact fieldset div.submit {
+	padding: 0 0 0 0;
+}
+#contact fieldset div label {
+	width: 50%;
+	font-weight: normal;
+	padding: 8px 0 0 15px;
+}
+#contact fieldset div div.desc {
+	width: 50%;
+}
+#contact fieldset div.message div.desc {
+	width: 80%;
+}
+#contact fieldset div div.desc input[type="text"],
+#contact fieldset div.message div.desc textarea {
+	width: 100%;
+}
+#contact fieldset div.submit label {
+	display: none;
+}
+
+/* =Sidebar
+-------------------------------------------------------------- */
+#contact .sidebar {
+	width: 30%;
+	padding: 0 0 0 30px;
+}
+#contact .sidebar div {
+	border-bottom: 1px dotted #ced8df;
+	padding: 0 0 20px 0;
+	margin: 0 0 17px 0;
+	color: #a6a6a6;
+}
+#contact .sidebar div:last-child {
+	margin: 0 0 0 0;
+}
+#contact .sidebar div h5 {
+	margin: 0 0 1px 0;
+	font-size: 14px;
+	line-height: 18px;
+}
